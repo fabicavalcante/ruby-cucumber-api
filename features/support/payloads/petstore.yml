@@ -1,0 +1,29 @@
+criauser: {
+  id: 1000,
+  username: "john.john",
+  firstName: "John",
+  lastName: "Grey",
+  email: "john@gmail.com",
+  password: "123",
+  phone: "98765432",
+  userStatus: 0
+}
+
+criapet: {
+  id: 2000,
+  category: {
+    id: 1,
+    name: "Doguinho"
+  },
+  name: “Toddy”,
+  photoUrls: [
+    string
+  ],
+  tags: [
+    {
+      id: 1,
+      name: "tags"
+    }
+  ],
+  status: "available"
+}
